@@ -31,7 +31,7 @@ This plugin provides an easy way to add a custom SVG icon or graphic to the Bloc
 == Installation ==
 
 1. You have a couple options:
-	* Go to Plugins &rarr; Add New and search for "Icon Block". Once found, click "Install".
+	* Go to Plugins &rarr; Add New and search for "All Icon Block". Once found, click "Install".
 	* Download the Icon Block from wordpress.org and make sure the folder us zipped. Then upload via Plugins &rarr; Add New &rarr; Upload.
     * Open the block inserter within the Block Editor (Gutenberg) and search for "icon". The plugin should appear and allow you to it install directly. Skip steps 2 and 3.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
@@ -68,114 +68,6 @@ Note that WordPress multisite installations have additional restrictions. "Unfil
 
 == Changelog ==
 
-= 1.3.1 - 2022-10-01 =
-
-**Fixed**
-
-* Fix alignment classes not getting applied in the correct spot.
-
-= 1.3.0 - 2022-09-20 =
-
-**Added**
-
-* Add the ability to toggle icon color fill. Useful for SVG icons that use stroke.
-* Add the ability to disable custom icons using the `allIconBlock.enableCustomIcons` filter.
-* Add title attribute support.
-* Add alternative Reddit icon to match WordPress core.
-* Add new WordPress icon: `title`
-
-**Changed**
-
-* Update block architecture to support features in WordPress 6.1.
-* Update block placeholder to be more consistent with core placeholders.
-* Improve support for custom icons without a fill color.
-* Improve the UI in various places.
-
-**Removed**
-
-* Remove deprecated WordPress icons: `archiveTitle`, `commentTitle`, `postTitle`, and `queryTitle`
-
-**Fixed**
-
-* Fix bug where icon color and fill were overridden by theme colors.
-* Fix visual inconsistency between the frontend and Editor due to box-sizing not getting applied in the Editor.
-
-= 1.2.0 - 2022-05-02 =
-
-**Added**
-
-* Add alpha support for icon and background colors.
-* Add link rel support.
-* Add support for custom icon types.
-* Add new WordPress icons: `post`, `postTerms`, `queryTitle`, `removeSubmenu`, and `row`
-
-**Changed**
-
-* Remove deprecated WordPress icons: `alignJustifyAlt`, `cogAlt`, and `trashFilled`
-
-= 1.1.2 - 2022-01-27 =
-
-**Fixed**
-
-* Fix bug where custom SVG icons with `style` attributes would not render correctly. Thanks @endres for reporting this issue.
-
-= 1.1.1 - 2022-01-25 =
-
-**Changed**
-
-* Include both theme and WordPress default color palettes in the icon and background color picker.
-
-= 1.1.0 - 2022-01-25 =
-
-**Added**
-
-* Add additional border support (color, width, style)
-* Add margin support
-* Add the ability to set an `aria-label` on the icon and link.
-* Add the core Unlock icon.
-* Add the core Comment Author Avatar icon.
-* Add the core Comment Author Name icon.
-* Add the core Comment Content icon.
-* Add the core Comment Edit Link icon.
-* Add the core Comment Reply Link icon.
-
-**Changed**
-
-* Update inserter modal components to use `isFullScreen` to better resemble core modals.
-* Update styling on inserter modals for improved mobile responsiveness.
-* Import the Align None, Color, Reset, and Styles icons directly from @wordpress/icons.
-* Remove the custom search component in favor of the core component from @wordpress/components.
-* Restructure stylesheets to better conform with block standards.
-
-**Fixed**
-
-* Fix bug where hyphens and colons would be incorrectly stripped from attribute names in custom icons. Thanks @stokesman for the PR. ([#5](https://github.com/ndiego/icon-block/pull/5))
-
-= 1.0.0 - 2021-10-06 =
-
-**Added**
-
-* Added the WordPress icon library featuring 270+ icons.
-* Add new placeholder and quick icon insertion experience.
-* Added new custom icon editing modal for an improved insertion experience.
-
-= 0.1.2 - 2021-09-27 =
-
-**Added**
-
-* Added scale transform on the frontend when an icon is linked to improve a11y. This matches the hover styling in the core WordPress Social Icons block. Future improvements are planned, including dedicated hover/focus settings within the block itself.
-
-**Fixed**
-
-* Fixed translation file.
-* Fixed version in block.json so block can be added to the Block Directory.
-
-= 0.1.1 - 2021-09-25 =
-
-**Fixed**
-
-* Fixed SVG sanitization for non-standard SVGs.
-
-= 0.1.0 - 2021-09-25 =
+= 1.0.0 =
 
 * Initial release 🎉
