@@ -1,4 +1,4 @@
-=== The Icon Block ===
+=== All Icon Block ===
 Contributors:      ikamal, wpbranch
 Tags:              icon, icon block, SVG, SVG block, block
 Requires at least: 5.9
