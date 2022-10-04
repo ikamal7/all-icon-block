@@ -4,7 +4,7 @@
  * Description:       A simple little block that allows you add any kind of icon or graphic to your website.
  * Requires at least: 5.9
  * Requires PHP:      7.0
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Kamal Hosen
  * Author URI:        https://www.kamalhosen.me
  * License:           GPL-2.0-or-later
